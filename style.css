@@ -1,6 +1,7 @@
 .home {
     font-family: 'Times News Roman', Times,sans-serif;
     font-size: 30px;
+    background: lightgreen;
 }
 
 img {
@@ -23,6 +24,7 @@ h1 {
 .pages {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    background: lightsalmon;
 }
 
 .pages-img {
