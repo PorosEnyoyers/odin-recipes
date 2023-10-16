@@ -1,68 +1,88 @@
-.home {
-    font-family: 'Times News Roman', Times,sans-serif;
-    font-size: 30px;
-    background: lightgreen;
-}
-
-img {
-    margin: 0px auto;
-    width: 1000px;
-    height: auto; 
-}
-
-h1 {
-    text-align: center;
-    color: rgb(128, 17, 17);
-    margin: 10px 270px;
-    display: inline-block;
-    background-color: yellow;
-}
-
-.links {
-    background-color: rgb(247, 242, 1);
-    line-height: 1.7;
-    font-size: 23px;
-}
-
-.pages {
-    font-family: 'Times New Roman', Times, serif;
+body {
+    background:whitesmoke;
+    font-family: 'Times New Roman', Times, sans-serif;
     font-size: 20px;
-    background: lightsalmon;
-}
-
-.pages-img {
-    width: 500px;
-    height: auto;
-}
-
-.pages-head {
-    color: violet;
-    background-color: black;
-    text-align: center;
-}
-
-.lists {
-    font-size: 15px;
-    line-height: 2;
-}
-
-.steps {
-    line-height: 1.5;
 }
 
 .containers {
-    border: 2px solid darkred;
-    width: 1000px;
-    margin: 0px auto;
-    background-color: rgba(255, 255, 255, 0.658);
+    margin: auto;
+    width: 1600px;
+    height: auto;
+    border: 5px solid salmon;
+    background: rgb(253, 241, 224);
 }
 
-.home-head {
-    text-align: center;
-    color: blue;
+.header {
+    display: flex;
+    gap: 10px;
+    height: 400px;
 }
 
-.home-para{
-    text-align: center;
-    font-size: 23px;
+.image-one {
+    order: 1;
+    width: 200px;
+    flex: 2;
 }
+
+.title {
+    order: 2;
+    color: darkred;
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    background-color: yellow;
+}
+
+.image-two {
+    order: 3;
+    width: 200px;
+    flex: 2;
+}
+
+.para-container {
+    display: flex;
+    margin: 25px 0px;
+    flex-direction: column;
+}
+
+.para-head {
+    flex: 1;
+    align-self: center;
+    color: blue ;
+}
+
+.para {
+    flex: 1;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    width: 800px;
+    align-self: center;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-head {
+    flex: 1;
+    align-self: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.list {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+}
+
+.links {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    
+}
+
